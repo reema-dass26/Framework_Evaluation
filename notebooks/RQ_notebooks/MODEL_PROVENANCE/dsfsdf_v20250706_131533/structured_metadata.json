@@ -1,0 +1,220 @@
+{
+  "FAIR": {
+    "dcterms:identifier": "97e136a0-3f80-4517-bf55-38106790fe0f",
+    "dc:title": "Iris",
+    "dc:description": "https://archive.ics.uci.edu/dataset/53",
+    "dc:creator": "R. A. Fisher",
+    "dc:license": "info not available",
+    "dcterms:hasVersion": "v0",
+    "dcterms:created": "2023-03-16 12:57:44",
+    "dcterms:modified": "2025-04-18 08:55:20",
+    "dcat:landingPage": "https://archive.ics.uci.edu/dataset/53",
+    "dc:publisher": "UCI Machine Learning Repository",
+    "dcterms:issued": "1936",
+    "dc:language": "unknown",
+    "dcat:citationCount": "23",
+    "dc:subject": "info not available",
+    "dcat:relatedResource": "\"[]\"",
+    "dcat:schemaVersion": "http://datacite.org/schema/kernel-4",
+    "dcat:registered": "2023-03-16 12:57:45",
+    "dcat:citationsOverTime": "\"[{\\\"year\\\": \\\"2023\\\", \\\"total\\\": 5}, {\\\"year\\\": \\\"2024\\\", \\\"total\\\": 11}, {\\\"year\\\": \\\"2025\\\", \\\"total\\\": 7}]\""
+  },
+  "FAIR4ML": {
+    "fair4ml:experimentID": "None_specified",
+    "fair4ml:runID": "ccb5f7bd8a1c48ffa81a993d1d56050a",
+    "fair4ml:sessionID": "a93ac08a-76db-4b4e-98c3-1b66e17e9af8",
+    "fair4ml:modelID": "model_dsfsdf_v20250706_131533_20250706_131533",
+    "fair4ml:datasetID": "4bd0075e-1884-4464-b482-9e19b673fa5f",
+    "fair4ml:trainedOn": "Iris",
+    "fair4ml:modelType": "Classifier",
+    "dcterms:source": "10.24432/C56C76",
+    "fair4ml:trainingStartTime": "2025-07-06T13:15:33.176408",
+    "fair4ml:trainingEndTime": "2025-07-06T13:15:55.078945",
+    "fair4ml:targetVariable": "species",
+    "fair4ml:trainingScriptVersion": "9dbec0821e8b4e4ac4252dc949ec4d6470f41eff",
+    "fair4ml:runEnvironment": "Windows 10 | Python 3.11.5"
+  },
+  "MLSEA": {
+    "mlsea:accuracy": "1.000000000000000000",
+    "mlsea:f1_score": "1.000000000000000000",
+    "mlsea:num_deleted_rows": "0E-18",
+    "mlsea:num_inserted_rows": "0E-18",
+    "mlsea:precision": "1.000000000000000000",
+    "mlsea:recall": "1.000000000000000000",
+    "mlsea:roc_auc": "1.000000000000000000",
+    "mlsea:row_count_end": "150.000000000000000000",
+    "mlsea:row_count_start": "150.000000000000000000",
+    "mlsea:training_accuracy_score": "1.000000000000000000",
+    "mlsea:training_f1_score": "1.000000000000000000",
+    "mlsea:training_log_loss": "0.040043073604650606",
+    "mlsea:training_precision_score": "1.000000000000000000",
+    "mlsea:training_recall_score": "1.000000000000000000",
+    "mlsea:training_roc_auc": "1.000000000000000000",
+    "mlsea:training_score": "1.000000000000000000",
+    "justification_bootstrap": "No justification provided",
+    "justification_class_weight": "No justification provided",
+    "justification_criterion": "No justification provided",
+    "justification_dataset_version": "No justification provided",
+    "justification_drop_column_x": "No justification provided",
+    "justification_ethical_considerations": "No justification provided",
+    "justification_experiment_name": "No justification provided",
+    "justification_intended_use": "No justification provided",
+    "justification_max_depth": "No justification provided",
+    "justification_max_features": "No justification provided",
+    "justification_metric_choice": "No justification provided",
+    "justification_min_samples_leaf": "No justification provided",
+    "justification_min_samples_split": "No justification provided",
+    "justification_model_choice": "No justification provided",
+    "justification_model_limitations": "No justification provided",
+    "justification_not_intended_for": "No justification provided",
+    "justification_n_estimators": "No justification provided",
+    "justification_n_jobs": "No justification provided",
+    "justification_oob_score": "No justification provided",
+    "justification_target_variable": "No justification provided",
+    "justification_test_split": "No justification provided",
+    "justification_threshold_accuracy": "No justification provided",
+    "justification_verbose": "No justification provided",
+    "mlsea:trainSplit": "0.800000000000000000",
+    "mlsea:testSplit": "0.200000000000000000",
+    "mlsea:featureSelection": "id,sepallengthcm,sepalwidthcm,petallengthcm,petalwidthcm",
+    "mlsea:labelMap": "null",
+    "mlsea:imbalanceRatio": "1.000000000000000000"
+  },
+  "Croissant": {
+    "mls:modelID": "model_dsfsdf_v20250706_131533_20250706_131533",
+    "mls:modelName": "dsfsdf_v20250706_131533",
+    "mls:learningAlgorithm": "RandomForestClassifier",
+    "mls:modelArchitecture": "RandomForestClassifier",
+    "mls:featureList": "['sepallengthcm', 'sepalwidthcm', 'petallengthcm', 'petalwidthcm']",
+    "mls:targetVariable": "species",
+    "mls:labelEncoding": "species",
+    "mls:modelPath": "dsfsdf_v20250706_131533.pkl",
+    "mls:serializationFormat": "pickle",
+    "mls:modelVersion": "v5",
+    "mls:hyperparameters": "{\"n_estimators\": 100, \"criterion\": \"entropy\", \"max_depth\": 10, \"min_samples_split\": 3, \"min_samples_leaf\": 1, \"max_features\": \"sqrt\", \"bootstrap\": true, \"oob_score\": true, \"class_weight\": null, \"verbose\": 1, \"n_jobs\": -1}",
+    "mls:preprocessingSteps": "{\"dropped_columns\": [\"id\"], \"numeric_columns\": [\"sepallengthcm\", \"sepalwidthcm\", \"petallengthcm\", \"petalwidthcm\"], \"target_column\": \"species\", \"stratified\": false, \"coercion_strategy\": \"Numeric cast (auto)\", \"feature_engineering\": \"None\", \"missing_value_strategy\": \"None\", \"outlier_detection\": \"None\", \"encoding_strategy\": \"LabelEncoder (target only)\", \"scaling\": \"None\", \"sampling\": \"None\", \"feature_selection\": \"None\", \"train_test_split\": {\"test_size\": 0.2, \"random_state\": 42}, \"imbalance_ratio\": \"{0: 50, 1: 50, 2: 50}\", \"preprocessing_timestamp\": \"2025-07-06T13:16:09.098057\"}",
+    "mls:hasInput": "Iris",
+    "mls:hasOutput": "categorical"
+  },
+  "PROV-O": {
+    "prov:Entity": "97e136a0-3f80-4517-bf55-38106790fe0f",
+    "prov:Activity": "ccb5f7bd8a1c48ffa81a993d1d56050a",
+    "prov:Agent": "reema",
+    "prov:wasGeneratedBy": "ccb5f7bd8a1c48ffa81a993d1d56050a",
+    "prov:wasAssociatedWith": "default_project",
+    "prov:startedAtTime": "2025-07-06T13:15:33.176408",
+    "prov:endedAtTime": "2025-07-06T13:15:55.078945",
+    "prov:used": "C:\\Users\\reema\\AppData\\Roaming\\Python\\Python311\\site-packages\\ipykernel_launcher.py",
+    "fair4ml:usedNotebook": "RQ1_2.ipynb",
+    "prov:sessionID": "a93ac08a-76db-4b4e-98c3-1b66e17e9af8",
+    "prov:location": "Purplish",
+    "prov:platform": "Windows",
+    "prov:pythonVersion": "3.11.5",
+    "prov:osPlatform": "Windows 10",
+    "prov:role": "collaborator",
+    "prov:scriptName": "None_specified",
+    "prov:commit": "9dbec0821e8b4e4ac4252dc949ec4d6470f41eff",
+    "prov:commitTime": "2025-07-06T11:15:29.577709",
+    "prov:commitAuthor": "Reema George",
+    "prov:commitEmail": "106236154+reema-dass26@users.noreply.github.com",
+    "prov:branch": "main",
+    "prov:repository": "https://archive.ics.uci.edu/dataset/53"
+  },
+  "Uncategorized": {
+    "run_name": "omniscient-wasp-142",
+    "origin_url": "None_specified",
+    "invenio_metadata": {
+      "id": "stmzc-8zy17",
+      "title": "RQ_notebooks",
+      "creator": "Dass, Reema",
+      "publication_date": "2025-04-24",
+      "files": [
+        {
+          "key": "dsfsdf_v20250706_131533/dsfsdf_v20250706_131533.pkl",
+          "url": "https://127.0.0.1:5000/api/records/stmzc-8zy17/files/dsfsdf_v20250706_131533/dsfsdf_v20250706_131533.pkl/content",
+          "size": 163056,
+          "mimetype": "application/octet-stream",
+          "checksum": "md5:8bdaede940ed13237b5e3e246ed4bed3",
+          "metadata": {}
+        },
+        {
+          "key": "dsfsdf_v20250706_131533/dsfsdf_v20250706_131533_reproducibility.txt",
+          "url": "https://127.0.0.1:5000/api/records/stmzc-8zy17/files/dsfsdf_v20250706_131533/dsfsdf_v20250706_131533_reproducibility.txt/content",
+          "size": 3446,
+          "mimetype": "text/plain",
+          "checksum": "md5:0f02bd85dca2c56102ae80fdd39807b8",
+          "metadata": {}
+        },
+        {
+          "key": "dsfsdf_v20250706_131533/dsfsdf_v20250706_131533_run_summary.json",
+          "url": "https://127.0.0.1:5000/api/records/stmzc-8zy17/files/dsfsdf_v20250706_131533/dsfsdf_v20250706_131533_run_summary.json/content",
+          "size": 11158,
+          "mimetype": "application/json",
+          "checksum": "md5:0dd5ccc42ae2cbbc0ce12e65a633cb9f",
+          "metadata": {}
+        },
+        {
+          "key": "dsfsdf_v20250706_131533/prov_JSONLD_export.jsonld",
+          "url": "https://127.0.0.1:5000/api/records/stmzc-8zy17/files/dsfsdf_v20250706_131533/prov_JSONLD_export.jsonld/content",
+          "size": 24382,
+          "mimetype": "application/ld+json",
+          "checksum": "md5:9a62871e79922bc4d51f42b9478ab69b",
+          "metadata": {}
+        },
+        {
+          "key": "dsfsdf_v20250706_131533/prov_RDFXML_export.rdf",
+          "url": "https://127.0.0.1:5000/api/records/stmzc-8zy17/files/dsfsdf_v20250706_131533/prov_RDFXML_export.rdf/content",
+          "size": 11635,
+          "mimetype": "application/rdf+xml",
+          "checksum": "md5:b91652112970491c709e9d4b5a88ff1f",
+          "metadata": {}
+        },
+        {
+          "key": "dsfsdf_v20250706_131533/requirements.txt",
+          "url": "https://127.0.0.1:5000/api/records/stmzc-8zy17/files/dsfsdf_v20250706_131533/requirements.txt/content",
+          "size": 1020,
+          "mimetype": "text/plain",
+          "checksum": "md5:0aedf900a3c11ae67b2ac38ca3345906",
+          "metadata": {}
+        },
+        {
+          "key": "dsfsdf_v20250706_131533/structured_metadata.json",
+          "url": "https://127.0.0.1:5000/api/records/stmzc-8zy17/files/dsfsdf_v20250706_131533/structured_metadata.json/content",
+          "size": 7186,
+          "mimetype": "application/json",
+          "checksum": "md5:db7c3b2e6e558eb7215e54be76949406",
+          "metadata": {}
+        },
+        {
+          "key": "dsfsdf_v20250706_131533/.ipynb_checkpoints/dsfsdf_v20250706_131533_reproducibility-checkpoint.txt",
+          "url": "https://127.0.0.1:5000/api/records/stmzc-8zy17/files/dsfsdf_v20250706_131533/.ipynb_checkpoints/dsfsdf_v20250706_131533_reproducibility-checkpoint.txt/content",
+          "size": 3446,
+          "mimetype": "text/plain",
+          "checksum": "md5:0f02bd85dca2c56102ae80fdd39807b8",
+          "metadata": {}
+        },
+        {
+          "key": "dsfsdf_v20250706_131533/.ipynb_checkpoints/dsfsdf_v20250706_131533_run_summary-checkpoint.json",
+          "url": "https://127.0.0.1:5000/api/records/stmzc-8zy17/files/dsfsdf_v20250706_131533/.ipynb_checkpoints/dsfsdf_v20250706_131533_run_summary-checkpoint.json/content",
+          "size": 11158,
+          "mimetype": "application/json",
+          "checksum": "md5:0dd5ccc42ae2cbbc0ce12e65a633cb9f",
+          "metadata": {}
+        }
+      ],
+      "pids": {
+        "oai": {
+          "identifier": "oai:my-site.com:stmzc-8zy17",
+          "provider": "oai"
+        }
+      },
+      "version_info": {
+        "is_latest": true,
+        "index": 1
+      },
+      "status": "published",
+      "views": 0,
+      "downloads": 0
+    }
+  }
+}
