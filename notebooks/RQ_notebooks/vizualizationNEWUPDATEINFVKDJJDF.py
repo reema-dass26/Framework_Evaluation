@@ -1418,9 +1418,9 @@ Use this view to inspect detailed provenance metadata for a specific training ru
     
             # 📊 Evaluation Metrics - Test
             "Accuracy (Test)": mlsea.get("mlsea:accuracy", "—"),
-            "F1 Score (Test)": mlsea.get("mlsea:f1_macro", "—"),
-            "Precision (Test)": mlsea.get("mlsea:precision_macro", "—"),
-            "Recall (Test)": mlsea.get("mlsea:recall_macro", "—"),
+            "F1 Score (Test)": mlsea.get("mlsea:f1_score", "—"),
+            "Precision (Test)": mlsea.get("mlsea:precision", "—"),
+            "Recall (Test)": mlsea.get("mlsea:recall", "—"),
             "ROC AUC (Test)": mlsea.get("mlsea:roc_auc", "—"),
     
             # 📊 Evaluation Metrics - Train
