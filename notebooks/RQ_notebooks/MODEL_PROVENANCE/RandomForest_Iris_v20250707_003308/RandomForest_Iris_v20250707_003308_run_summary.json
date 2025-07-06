@@ -1,0 +1,246 @@
+{
+  "run_id": "92e892d6978840e7b6f4de319d9ae540",
+  "run_name": "rare-loon-352",
+  "experiment_id": "720044898551446016",
+  "start_time": 1751841124850,
+  "end_time": null,
+  "params": {
+    "bootstrap": "True",
+    "C": "1.0",
+    "class_weight": "None",
+    "criterion": "entropy",
+    "dropped_columns": "['id']",
+    "dual": "False",
+    "feature_matrix_shape": "(178, 13)",
+    "final_feature_names": "['alcohol', 'malic_acid', 'ash', 'alcalinity_ash', 'magnesium', 'total_phenols', 'flavanoids', 'nonflavanoid_phenols', 'proanthocyanins', 'color_intensity', 'hue', 'od280_od315_diluted_wines', 'proline']",
+    "final_num_features": "13",
+    "fit_intercept": "True",
+    "hostname": "Purplish",
+    "input_row_count": "178",
+    "intercept_scaling": "1",
+    "l1_ratio": "None",
+    "label_vector_shape": "(178,)",
+    "matplotlib_version": "3.7.2",
+    "max_depth": "6",
+    "max_features": "sqrt",
+    "max_iter": "100",
+    "min_samples_leaf": "1",
+    "min_samples_split": "2",
+    "multi_class": "auto",
+    "numeric_columns_converted": "13",
+    "numpy_version": "1.24.4",
+    "n_estimators": "100",
+    "n_features": "13",
+    "n_jobs": "-1",
+    "n_test_samples": "36",
+    "n_train_samples": "142",
+    "oob_score": "False",
+    "os_platform": "Windows 10",
+    "os_version": "10.0.26100",
+    "pandas_version": "2.2.3",
+    "platform": "Windows",
+    "project_id": "default_project",
+    "python_version": "3.11.5",
+    "random_seed": "42",
+    "random_state": "42",
+    "raw_columns": "['id', 'alcohol', 'malic_acid', 'ash', 'alcalinity_ash', 'magnesium', 'total_phenols', 'flavanoids', 'nonflavanoid_phenols', 'proanthocyanins', 'color_intensity', 'hue', 'od280_od315_diluted_wines', 'proline', 'class']",
+    "raw_row_count": "178",
+    "retrieval_time_utc": "2025-07-06T22:33:08.552835",
+    "role": "collaborator",
+    "seaborn_version": "0.12.2",
+    "session_id": "d9f5e3b1-4466-4134-b8b0-119dbee71cea",
+    "shap_version": "0.47.1",
+    "sklearn_version": "1.3.0",
+    "test_size": "0.2",
+    "timestamp_utc": "2025-07-06T22:32:04.917750",
+    "username": "reema",
+    "verbose": "0"
+  },
+  "metrics": {
+    "accuracy": 0.9722222222222222,
+    "f1_macro": 0.9761600681140911,
+    "num_deleted_rows": 0.0,
+    "num_inserted_rows": 0.0,
+    "precision_macro": 0.9777777777777779,
+    "recall_macro": 0.9761904761904763,
+    "roc_auc": 0.9989177489177489,
+    "row_count_end": 178.0,
+    "row_count_start": 178.0,
+    "training_accuracy_score": 0.9647887323943662,
+    "training_f1_score": 0.9649121857480707,
+    "training_log_loss": 0.12348816651814207,
+    "training_precision_score": 0.9654965114488444,
+    "training_recall_score": 0.9647887323943662,
+    "training_roc_auc": 0.9939752182686763,
+    "training_score": 0.9647887323943662
+  },
+  "tags": {
+    "accuracy": "0.9722222222222222",
+    "class_names": "1,2,3",
+    "compute_environment": "{\"os\": \"Windows 10\", \"cpu\": \"AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD\", \"ram_gb\": 13.69, \"python_version\": \"3.11.5\", \"sklearn_version\": \"1.3.0\", \"pandas_version\": \"2.2.3\", \"numpy_version\": \"1.24.4\"}",
+    "dataset_id": "2ccb670d-6fe9-41c3-874e-3b5e183ba191",
+    "dataset_name": "wine_dataset",
+    "dataset_version": "wine",
+    "data_source": "unknown",
+    "DOI_citations_over_time": "[{\"year\": \"2023\", \"total\": 5}, {\"year\": \"2024\", \"total\": 7}, {\"year\": \"2025\", \"total\": 6}]",
+    "DOI_citation_count": "18",
+    "DOI_created": "2023-03-16T12:57:51.000Z",
+    "DOI_dataset_access_url": "https://archive.ics.uci.edu/dataset/109",
+    "DOI_dataset_creator": "Stefan Aeberhard, M. Forina",
+    "DOI_dataset_description": "info not available",
+    "DOI_dataset_documentation": "https://archive.ics.uci.edu/dataset/109",
+    "DOI_dataset_id": "10.24432/C5PC7J",
+    "DOI_dataset_license": "info not available",
+    "DOI_dataset_publication_date": "1992",
+    "DOI_dataset_publisher": "UCI Machine Learning Repository",
+    "DOI_dataset_subjects": "info not available",
+    "DOI_dataset_title": "Wine",
+    "DOI_metadata_standard": "Dataset",
+    "DOI_prov_activity": "Ingestion and Publication",
+    "DOI_prov_agent_dataset_creator": "Stefan Aeberhard, M. Forina",
+    "DOI_prov_entity": "Wine",
+    "DOI_prov_role_database_creator": "Database Ingestor and Maintainer",
+    "DOI_prov_role_dataset_creator": "Original Data Author",
+    "DOI_prov_startedAtTime": "1992",
+    "DOI_prov_used": "https://archive.ics.uci.edu/dataset/109",
+    "DOI_prov_wasAttributedTo": "Stefan Aeberhard, M. Forina",
+    "DOI_prov_wasDerivedFrom": "10.24432/C5PC7J",
+    "DOI_registered_date": "2023-03-16T12:57:52.000Z",
+    "DOI_related_resources": "[]",
+    "DOI_schema_version": "http://datacite.org/schema/kernel-4",
+    "DOI_updated": "2025-05-27T21:49:30.000Z",
+    "dropped_id_columns": "id",
+    "f1_macro": "0.9761600681140911",
+    "feature_columns": "id,alcohol,malic_acid,ash,alcalinity_ash,magnesium,total_phenols,flavanoids,nonflavanoid_phenols,proanthocyanins,color_intensity,hue,od280_od315_diluted_wines,proline",
+    "GIT_code_version": "dsff",
+    "git_commit": "6941e3736e7caa43be6c3d6f25b0f5c4d10c54be",
+    "GIT_user": "Reema George",
+    "GIT_user_email": "106236154+reema-dass26@users.noreply.github.com",
+    "hyperparameters": "{\"n_estimators\": 100, \"criterion\": \"entropy\", \"max_depth\": 6, \"min_samples_split\": 2, \"min_samples_leaf\": 1, \"max_features\": \"sqrt\", \"bootstrap\": true, \"oob_score\": false, \"n_jobs\": -1, \"random_state\": 42, \"verbose\": 0}",
+    "Internal_DBRepo_table_last_modified": "info not available",
+    "justification_dataset_version": "No justification provided",
+    "justification_drop_column_X": "No justification provided",
+    "justification_ethical_considerations": "No justification provided",
+    "justification_experiment_name": "No justification provided",
+    "justification_intended_use": "No justification provided",
+    "justification_metric_choice": "No justification provided",
+    "justification_model_choice": "No justification provided",
+    "justification_model_limitations": "No justification provided",
+    "justification_not_intended_for": "No justification provided",
+    "justification_target_variable": "No justification provided",
+    "justification_test_split": "No justification provided",
+    "justification_threshold_accuracy": "No justification provided",
+    "label_map": "{\"0\": 0, \"1\": 1, \"2\": 2}",
+    "mlflow.log-model.history": "[{\"run_id\": \"92e892d6978840e7b6f4de319d9ae540\", \"artifact_path\": \"model\", \"utc_time_created\": \"2025-07-06 22:33:13.634382\", \"model_uuid\": \"18536167ced04ec7a983f4da9721ce0f\", \"flavors\": {\"python_function\": {\"model_path\": \"model.pkl\", \"predict_fn\": \"predict\", \"loader_module\": \"mlflow.sklearn\", \"python_version\": \"3.11.5\", \"env\": {\"conda\": \"conda.yaml\", \"virtualenv\": \"python_env.yaml\"}}, \"sklearn\": {\"pickled_model\": \"model.pkl\", \"sklearn_version\": \"1.3.0\", \"serialization_format\": \"cloudpickle\", \"code\": null}}}]",
+    "mlflow.runName": "rare-loon-352",
+    "mlflow.source.name": "C:\\Users\\reema\\AppData\\Roaming\\Python\\Python311\\site-packages\\ipykernel_launcher.py",
+    "mlflow.source.type": "LOCAL",
+    "mlflow.user": "reema",
+    "model_architecture": "LogisticRegression",
+    "model_name": "RandomForest_Iris_v20250707_003308",
+    "model_path": "RandomForest_Iris_v20250707_003308.pkl",
+    "model_serialization": "pickle",
+    "model_version": "dsff",
+    "notebook_name": "RQ1_2.ipynb",
+    "precision_macro": "0.9777777777777779",
+    "preprocessing_end_time": "2025-07-07T00:33:08.524467",
+    "preprocessing_hash": "3ef77848238f63203dc365475258a348dd41169df5275d7c9998d9cce7fd9aee",
+    "preprocessing_info": "{\"dropped_columns\": [\"id\"], \"numeric_columns\": [\"alcohol\", \"malic_acid\", \"ash\", \"alcalinity_ash\", \"magnesium\", \"total_phenols\", \"flavanoids\", \"nonflavanoid_phenols\", \"proanthocyanins\", \"color_intensity\", \"hue\", \"od280_od315_diluted_wines\", \"proline\"], \"target_column\": \"class\", \"stratified\": false, \"coercion_strategy\": \"Numeric cast (auto)\", \"feature_engineering\": \"None\", \"missing_value_strategy\": \"None\", \"outlier_detection\": \"None\", \"encoding_strategy\": \"LabelEncoder (target only)\", \"scaling\": \"None\", \"sampling\": \"None\", \"feature_selection\": \"None\", \"train_test_split\": {\"test_size\": 0.2, \"random_state\": 42}, \"imbalance_ratio\": \"{0: 59, 1: 71, 2: 48}\", \"preprocessing_timestamp\": \"2025-07-07T00:33:33.454913\"}",
+    "preprocessing_start_time": "2025-07-07T00:33:08.450823",
+    "random_state": "42",
+    "raw_columns": "id,alcohol,malic_acid,ash,alcalinity_ash,magnesium,total_phenols,flavanoids,nonflavanoid_phenols,proanthocyanins,color_intensity,hue,od280_od315_diluted_wines,proline,class",
+    "recall_macro": "0.9761904761904763",
+    "roc_auc": "0.9989177489177489",
+    "row_hash_tracking": "enabled",
+    "run_id": "92e892d6978840e7b6f4de319d9ae540",
+    "selected_model": "logistic_regression",
+    "startedAtTime": "2025-07-07T00:32:04.913750",
+    "target_variable": "class",
+    "target_variable_encoded": "class",
+    "test_size": "0.2",
+    "training_end_time": "2025-07-07T00:33:21.849496",
+    "training_start_time": "2025-07-07T00:33:08.787960"
+  },
+  "artifacts": [
+    {
+      "path": "RandomForest_Iris_v20250707_003308/RandomForest_Iris_v20250707_003308.pkl",
+      "type": "other"
+    },
+    {
+      "path": "confusion_matrix.png",
+      "type": "image"
+    },
+    {
+      "path": "estimator.html",
+      "type": "other"
+    },
+    {
+      "path": "label_mapping.json",
+      "type": "text"
+    },
+    {
+      "path": "logreg_coefficients.png",
+      "type": "image"
+    },
+    {
+      "path": "metadata/doi_metadata_snapshot.json",
+      "type": "text"
+    },
+    {
+      "path": "model/MLmodel",
+      "type": "other"
+    },
+    {
+      "path": "model/conda.yaml",
+      "type": "other"
+    },
+    {
+      "path": "model/input_example.json",
+      "type": "text"
+    },
+    {
+      "path": "model/model.pkl",
+      "type": "other"
+    },
+    {
+      "path": "model/python_env.yaml",
+      "type": "other"
+    },
+    {
+      "path": "model/requirements.txt",
+      "type": "text"
+    },
+    {
+      "path": "model/serving_input_example.json",
+      "type": "text"
+    },
+    {
+      "path": "pr_curve_cls_0.png",
+      "type": "image"
+    },
+    {
+      "path": "pr_curve_cls_1.png",
+      "type": "image"
+    },
+    {
+      "path": "pr_curve_cls_2.png",
+      "type": "image"
+    },
+    {
+      "path": "roc_curve_cls_0.png",
+      "type": "image"
+    },
+    {
+      "path": "roc_curve_cls_1.png",
+      "type": "image"
+    },
+    {
+      "path": "roc_curve_cls_2.png",
+      "type": "image"
+    },
+    {
+      "path": "training_confusion_matrix.png",
+      "type": "image"
+    }
+  ]
+}
