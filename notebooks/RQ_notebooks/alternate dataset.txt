@@ -1,0 +1,32 @@
+✅ 1. Wine Dataset (UCI)
+Description: Classic classification dataset — predicting wine cultivars based on chemical analysis.
+
+Use Case: Multi-class classification.
+
+Model: Logistic Regression / Random Forest
+
+Source: UCI ML Repository
+
+DOI: 10.24432/C56C76
+
+✅ 2. Diabetes Dataset (Scikit-learn / UCI)
+Description: Predict disease progression one year after baseline.
+
+Use Case: Regression.
+
+Model: Linear Regression / Ridge
+
+Source: Scikit-learn built-in or UCI
+
+DOI: 10.24432/C5WW2K
+
+✅ 3. Breast Cancer Wisconsin Dataset (Diagnostic)
+Description: Binary classification of malignant vs. benign tumors.
+
+Use Case: Binary classification.
+
+Model: Support Vector Machine / Logistic Regression
+
+Source: Scikit-learn built-in or UCI
+
+DOI: 10.24432/C55C76
