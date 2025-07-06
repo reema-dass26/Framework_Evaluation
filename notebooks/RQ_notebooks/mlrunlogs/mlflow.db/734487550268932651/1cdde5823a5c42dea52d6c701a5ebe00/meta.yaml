@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/OneDrive/Dokumente/evaluation/Framework_Evaluation/notebooks/RQ_notebooks/mlrunlogs/mlflow.db/734487550268932651/1cdde5823a5c42dea52d6c701a5ebe00/artifacts
+end_time: 1751797524521
+entry_point_name: ''
+experiment_id: '734487550268932651'
+lifecycle_stage: active
+run_id: 1cdde5823a5c42dea52d6c701a5ebe00
+run_name: resilient-doe-654
+run_uuid: 1cdde5823a5c42dea52d6c701a5ebe00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751797516769
+status: 4
+tags: []
+user_id: reema

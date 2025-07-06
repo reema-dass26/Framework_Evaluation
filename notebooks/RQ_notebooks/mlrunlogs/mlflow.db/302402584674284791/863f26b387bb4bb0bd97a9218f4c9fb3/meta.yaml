@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/OneDrive/Dokumente/evaluation/Framework_Evaluation/notebooks/RQ_notebooks/mlrunlogs/mlflow.db/302402584674284791/863f26b387bb4bb0bd97a9218f4c9fb3/artifacts
+end_time: 1751395930537
+entry_point_name: ''
+experiment_id: '302402584674284791'
+lifecycle_stage: active
+run_id: 863f26b387bb4bb0bd97a9218f4c9fb3
+run_name: traveling-bee-468
+run_uuid: 863f26b387bb4bb0bd97a9218f4c9fb3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751395930481
+status: 4
+tags: []
+user_id: reema
