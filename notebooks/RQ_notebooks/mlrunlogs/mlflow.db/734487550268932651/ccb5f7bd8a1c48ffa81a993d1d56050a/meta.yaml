@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/OneDrive/Dokumente/evaluation/Framework_Evaluation/notebooks/RQ_notebooks/mlrunlogs/mlflow.db/734487550268932651/ccb5f7bd8a1c48ffa81a993d1d56050a/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '734487550268932651'
+lifecycle_stage: active
+run_id: ccb5f7bd8a1c48ffa81a993d1d56050a
+run_name: omniscient-wasp-142
+run_uuid: ccb5f7bd8a1c48ffa81a993d1d56050a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751800529419
+status: 1
+tags: []
+user_id: reema
