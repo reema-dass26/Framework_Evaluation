@@ -1,0 +1,8 @@
+Step/Task,Description,Time Taken (min),Comments/Issues Faced
+Understanding Framework Setup,"Reading documentation, installing dependencies",,
+Loading & Preparing New Dataset,"Steps to source/load dataset (e.g., from DBrepo)",,
+Running Preprocessing Pipeline,Executing preprocessing steps,,
+Running Training with New Model,"Switching/defining new model, training",,
+Running Evaluation & Logging,"Capturing metrics, visualization, logging artifacts",,
+Debugging/Errors Encountered,Troubleshooting errors during experiment,,
+Overall Time to Adapt and Run New Experiment,Total time,,

@@ -1,0 +1,5 @@
+Aspect,Evaluation Focus,User Study / Assessment Question,Notes / Action Items
+Clarity of schema mapping,How well do users understand provenance metadata schemas?,Can users interpret exported metadata structures without confusion?,Document schemas with examples
+Exportability in open-source tools,Is the exported metadata importable and usable in popular tools?,"Are there compatibility issues with open source tools (e.g., MLflow, DataCite, FAIR4ML)?",Run interoperability tests
+Consistency across export formats,Does the export maintain data consistency across formats?,Are all key provenance elements preserved in exports?,Automated schema validation
+Support for long-term reuse,Can metadata be reused or integrated in other workflows?,Do users find exported metadata helpful for downstream reuse?,User feedback and case studies

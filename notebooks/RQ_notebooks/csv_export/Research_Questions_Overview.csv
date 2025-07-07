@@ -1,0 +1,5 @@
+RQ Number,Research Question Summary,Evaluation Focus Summary,Notes / User Study Intent
+RQ1,How to trace/document provenance of ML models using standardized metadata?,"Automation degree, metadata coverage",Can all dataset and model provenance metadata be captured automatically?
+RQ2,"Role of metadata in provenance tasks: auditing, debugging, reproducibility, inspection.","Depth, granularity, accessibility",Match with user study questions for provenance tasks.
+RQ3,Use of interactive visualization of provenance metadata for improving workflows.,Impact of visualization on transparency and reproducibility,User interaction & insight extraction.
+RQ4,Mapping/converting provenance metadata to standardized schemas and exportability.,"Schema mapping, interoperability, export formats",Assess if exported metadata is usable in open tools.

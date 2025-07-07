@@ -1,0 +1,6 @@
+RQ2 Sub-question,Provenance Task Focus,User Study Question(s),Expected Evaluation Metric
+How was a specific result produced?,Reproducibility & traceability of results,"Can users identify the exact data, code, and parameters leading to a result?",% users correctly trace full provenance
+Which experiments used outdated/faulty data or code?,Versioning & error impact,Are users able to detect outdated versions and affected experiments?,Time to identify outdated experiments
+What training configurations influenced performance?,Experiment config & evaluation strategies,Can users compare different experiment configurations and outcomes?,Accuracy of user understanding experiment impacts
+Which models were trained on which datasets?,Model-data relationship tracking,Are users able to map models to datasets and their versions?,% completeness of model-dataset mapping
+Are there outdated forks/divergent versions in use?,Repository fork awareness & collaboration consistency,Can users detect and notify others about outdated forks or divergences?,% of detected forks and notification effectiveness

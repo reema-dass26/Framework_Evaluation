@@ -1,0 +1,16 @@
+digest: faf6b80a
+name: dataset
+profile: '{"num_rows": 124, "num_elements": 1612}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "alcohol", "required": true},
+  {"type": "double", "name": "malic_acid", "required": true}, {"type": "double", "name":
+  "ash", "required": true}, {"type": "double", "name": "alcalinity_ash", "required":
+  true}, {"type": "long", "name": "magnesium", "required": true}, {"type": "double",
+  "name": "total_phenols", "required": true}, {"type": "double", "name": "flavanoids",
+  "required": true}, {"type": "double", "name": "nonflavanoid_phenols", "required":
+  true}, {"type": "double", "name": "proanthocyanins", "required": true}, {"type":
+  "double", "name": "color_intensity", "required": true}, {"type": "double", "name":
+  "hue", "required": true}, {"type": "double", "name": "od280_od315_diluted_wines",
+  "required": true}, {"type": "long", "name": "proline", "required": true}]}'
+source: '{"tags": {"mlflow.user": "reema", "mlflow.source.name": "C:\\Users\\reema\\AppData\\Roaming\\Python\\Python311\\site-packages\\ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

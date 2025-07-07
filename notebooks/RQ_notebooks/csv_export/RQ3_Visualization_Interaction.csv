@@ -1,0 +1,6 @@
+Visualization/Interaction Aspect,User Study Question,Expected Outcome / Metric
+Dashboard widgets for provenance overview,Do users find dashboard widgets helpful for quick provenance insights?,"User satisfaction score, task completion time"
+Traceability flows (stepwise lineage visualization),Can users effectively follow stepwise data/model transformations?,% tasks correctly traced
+Preprocessing trace visualization,Does visualization help identify preprocessing inefficiencies?,Number of inefficiencies detected
+Interactive metadata inspection,Do users gain actionable insights through metadata exploration?,Number of improvement suggestions from users
+Integration into Virtual Research Environment,Does provenance visualization improve decision-making transparency?,Qualitative feedback from interviews
