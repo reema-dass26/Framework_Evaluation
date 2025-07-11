@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/reema/OneDrive/Dokumente/evaluation/Framework_Evaluation/notebooks/RQ_notebooks/mlrunlogs/mlflow.db/470904293318649845/3fcf341b258341509c7dc78547ba080b/artifacts
+end_time: 1752223324126
+entry_point_name: ''
+experiment_id: '470904293318649845'
+lifecycle_stage: active
+run_id: 3fcf341b258341509c7dc78547ba080b
+run_name: rare-fish-368
+run_uuid: 3fcf341b258341509c7dc78547ba080b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752223293749
+status: 4
+tags: []
+user_id: reema

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ns1="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/fair4ml:"
+   xmlns:ns2="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/mlsea:"
+   xmlns:ns3="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/prov:"
+   xmlns:ns4="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/mls:"
+   xmlns:ns5="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/dcterms:"
+   xmlns:ns6="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/dc:"
+   xmlns:ns7="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/dcat:"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/code_2a5a3a25d4184ab353c44f398840629207713dea">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns3:Entity>2ccb670d-6fe9-41c3-874e-3b5e183ba191</ns3:Entity>
+    <ns3:Activity>3fb7bc6ad9da4f0fa9d19c577b9ba55d</ns3:Activity>
+    <ns3:Agent>reema</ns3:Agent>
+    <ns3:wasGeneratedBy>3fb7bc6ad9da4f0fa9d19c577b9ba55d</ns3:wasGeneratedBy>
+    <ns3:wasAssociatedWith>45359</ns3:wasAssociatedWith>
+    <ns3:startedAtTime>2025-07-07T16:55:33.400097</ns3:startedAtTime>
+    <ns3:endedAtTime>2025-07-07T16:56:46.741075</ns3:endedAtTime>
+    <ns3:used>C:\Users\reema\AppData\Roaming\Python\Python311\site-packages\ipykernel_launcher.py</ns3:used>
+    <ns1:usedNotebook>RQ1_2.ipynb</ns1:usedNotebook>
+    <ns3:sessionID>08568912-e2b4-4908-a081-c30184c769ea</ns3:sessionID>
+    <ns3:location>Purplish</ns3:location>
+    <ns3:platform>Windows</ns3:platform>
+    <ns3:pythonVersion>3.11.5</ns3:pythonVersion>
+    <ns3:osPlatform>Windows 10</ns3:osPlatform>
+    <ns3:role>evaluator</ns3:role>
+    <ns3:commit>2a5a3a25d4184ab353c44f398840629207713dea</ns3:commit>
+    <ns3:commitTime>2025-07-07T14:52:39.462268</ns3:commitTime>
+    <ns3:commitAuthor>Reema George</ns3:commitAuthor>
+    <ns3:commitEmail>106236154+reema-dass26@users.noreply.github.com</ns3:commitEmail>
+    <ns3:branch>main</ns3:branch>
+    <ns3:repository>https://archive.ics.uci.edu/dataset/53</ns3:repository>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-07T16:55:33</prov:startedAtTime>
+    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-07T16:56:46</prov:endedAtTime>
+    <prov:used rdf:resource="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/dataset_2ccb670d-6fe9-41c3-874e-3b5e183ba191"/>
+    <prov:used rdf:resource="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/code_2a5a3a25d4184ab353c44f398840629207713dea"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/agent_reema"/>
+    <ns1:runID>3fb7bc6ad9da4f0fa9d19c577b9ba55d</ns1:runID>
+    <ns1:sessionID>08568912-e2b4-4908-a081-c30184c769ea</ns1:sessionID>
+    <ns1:modelID>model_randomforest_iris_v20250707_165533_20250707_165533</ns1:modelID>
+    <ns1:datasetID>8a1aadaf-226d-4df9-8705-85cb18b48338</ns1:datasetID>
+    <ns1:trainedOn>Iris</ns1:trainedOn>
+    <ns1:modelType>Classifier</ns1:modelType>
+    <ns5:source>10.24432/C56C76</ns5:source>
+    <ns1:trainingStartTime>2025-07-07T16:55:33.400097</ns1:trainingStartTime>
+    <ns1:trainingEndTime>2025-07-07T16:56:46.741075</ns1:trainingEndTime>
+    <ns1:targetVariable>class</ns1:targetVariable>
+    <ns1:trainingScriptVersion>2a5a3a25d4184ab353c44f398840629207713dea</ns1:trainingScriptVersion>
+    <ns1:runEnvironment>Windows 10 | Python 3.11.5</ns1:runEnvironment>
+    <ns2:accuracy>0.962962962962962900</ns2:accuracy>
+    <ns2:f1_score>0.962358523354035400</ns2:f1_score>
+    <ns2:num_deleted_rows>0E-18</ns2:num_deleted_rows>
+    <ns2:num_inserted_rows>0E-18</ns2:num_inserted_rows>
+    <ns2:precision>0.966666666666666700</ns2:precision>
+    <ns2:recall>0.961038961038961000</ns2:recall>
+    <ns2:roc_auc>0.997861552028218700</ns2:roc_auc>
+    <ns2:row_count_end>178.000000000000000000</ns2:row_count_end>
+    <ns2:row_count_start>178.000000000000000000</ns2:row_count_start>
+    <ns2:training_accuracy_score>0.975806451612903200</ns2:training_accuracy_score>
+    <ns2:training_f1_score>0.975812301460691000</ns2:training_f1_score>
+    <ns2:training_log_loss>0.094172262834103430</ns2:training_log_loss>
+    <ns2:training_precision_score>0.976403823178016800</ns2:training_precision_score>
+    <ns2:training_recall_score>0.975806451612903200</ns2:training_recall_score>
+    <ns2:training_roc_auc>0.997344243384261600</ns2:training_roc_auc>
+    <ns2:training_score>0.975806451612903200</ns2:training_score>
+    <ex:justification_bootstrap>false</ex:justification_bootstrap>
+    <ex:justification_dataset_version>for eval</ex:justification_dataset_version>
+    <ex:justification_drop_column_x>data prep</ex:justification_drop_column_x>
+    <ex:justification_ethical_considerations>no</ex:justification_ethical_considerations>
+    <ex:justification_experiment_name>naming standards</ex:justification_experiment_name>
+    <ex:justification_intended_use>classify wine</ex:justification_intended_use>
+    <ex:justification_max_depth>-1</ex:justification_max_depth>
+    <ex:justification_metric_choice>based on the model</ex:justification_metric_choice>
+    <ex:justification_min_samples_leaf>-1</ex:justification_min_samples_leaf>
+    <ex:justification_min_samples_split>-1</ex:justification_min_samples_split>
+    <ex:justification_model_choice>for good results</ex:justification_model_choice>
+    <ex:justification_model_limitations>No justification provided</ex:justification_model_limitations>
+    <ex:justification_not_intended_for>No justification provided</ex:justification_not_intended_for>
+    <ex:justification_n_estimators>-1</ex:justification_n_estimators>
+    <ex:justification_n_jobs>-1</ex:justification_n_jobs>
+    <ex:justification_oob_score>false</ex:justification_oob_score>
+    <ex:justification_target_variable>beacuse the paper suggests it</ex:justification_target_variable>
+    <ex:justification_test_split>beacuse its the norm</ex:justification_test_split>
+    <ex:justification_threshold_accuracy>no</ex:justification_threshold_accuracy>
+    <ex:justification_verbose>false</ex:justification_verbose>
+    <ns2:trainSplit>0.696629213483146100</ns2:trainSplit>
+    <ns2:testSplit>0.303370786516853950</ns2:testSplit>
+    <ns2:featureSelection>id,alcohol,malic_acid,ash,alcalinity_ash,magnesium,total_phenols,flavanoids,nonflavanoid_phenols,proanthocyanins,color_intensity,hue,od280_od315_diluted_wines,proline</ns2:featureSelection>
+    <ns2:labelMap>{"0": 0, "1": 1, "2": 2}</ns2:labelMap>
+    <ns2:imbalanceRatio>1.000000000000000000</ns2:imbalanceRatio>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/model_model_randomforest_iris_v20250707_165533_20250707_165533">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <prov:wasGeneratedBy rdf:resource="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d"/>
+    <ns4:modelID>model_randomforest_iris_v20250707_165533_20250707_165533</ns4:modelID>
+    <ns4:modelName>RandomForest_Iris_v20250707_165533</ns4:modelName>
+    <ns4:learningAlgorithm>unknown_estimator</ns4:learningAlgorithm>
+    <ns4:modelArchitecture>LogisticRegression</ns4:modelArchitecture>
+    <ns4:featureList>['alcohol', 'malic_acid', 'ash', 'alcalinity_ash', 'magnesium', 'total_phenols', 'flavanoids', 'nonflavanoid_phenols', 'proanthocyanins', 'color_intensity', 'hue', 'od280_od315_diluted_wines', 'proline']</ns4:featureList>
+    <ns4:targetVariable>class</ns4:targetVariable>
+    <ns4:labelEncoding>class</ns4:labelEncoding>
+    <ns4:modelPath>RandomForest_Iris_v20250707_165533.pkl</ns4:modelPath>
+    <ns4:serializationFormat>pickle</ns4:serializationFormat>
+    <ns4:modelVersion>v-eval-wine</ns4:modelVersion>
+    <ns4:hyperparameters>{"n_estimators": 100, "criterion": "entropy", "max_depth": 6, "min_samples_split": 2, "min_samples_leaf": 1, "max_features": "sqrt", "bootstrap": true, "oob_score": false, "n_jobs": -1, "random_state": 42, "verbose": 0}</ns4:hyperparameters>
+    <ns4:preprocessingSteps>{"dropped_columns": ["id"], "numeric_columns": ["alcohol", "malic_acid", "ash", "alcalinity_ash", "magnesium", "total_phenols", "flavanoids", "nonflavanoid_phenols", "proanthocyanins", "color_intensity", "hue", "od280_od315_diluted_wines", "proline"], "target_column": "class", "stratified": false, "coercion_strategy": "Numeric cast (auto)", "feature_engineering": "None", "missing_value_strategy": "None", "outlier_detection": "None", "encoding_strategy": "LabelEncoder (target only)", "scaling": "None", "sampling": "None", "feature_selection": "None", "train_test_split": {"test_size": 0.3, "random_state": 123}, "imbalance_ratio": "{0: 59, 1: 71, 2: 48}", "preprocessing_timestamp": "2025-07-07T17:00:22.166302"}</ns4:preprocessingSteps>
+    <ns4:hasInput>Iris</ns4:hasInput>
+    <ns4:hasOutput>categorical</ns4:hasOutput>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/agent_reema">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <foaf:name>reema</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/reema-dass26/ml-provenance/provenance/run_3fb7bc6ad9da4f0fa9d19c577b9ba55d/dataset_2ccb670d-6fe9-41c3-874e-3b5e183ba191">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns5:identifier>2ccb670d-6fe9-41c3-874e-3b5e183ba191</ns5:identifier>
+    <ns6:title>Iris</ns6:title>
+    <ns6:description>https://archive.ics.uci.edu/dataset/53</ns6:description>
+    <ns6:creator>R. A. Fisher</ns6:creator>
+    <ns6:license>info not available</ns6:license>
+    <ns5:hasVersion>wine</ns5:hasVersion>
+    <ns5:created>2023-03-16 12:57:44</ns5:created>
+    <ns5:modified>2025-04-18 08:55:20</ns5:modified>
+    <ns7:landingPage>https://archive.ics.uci.edu/dataset/53</ns7:landingPage>
+    <ns6:publisher>UCI Machine Learning Repository</ns6:publisher>
+    <ns5:issued>1936</ns5:issued>
+    <ns6:language>unknown</ns6:language>
+    <ns7:citationCount>23</ns7:citationCount>
+    <ns6:subject>info not available</ns6:subject>
+    <ns7:relatedResource>"[]"</ns7:relatedResource>
+    <ns7:schemaVersion>http://datacite.org/schema/kernel-4</ns7:schemaVersion>
+    <ns7:registered>2023-03-16 12:57:45</ns7:registered>
+    <ns7:citationsOverTime>"[{\"year\": \"2023\", \"total\": 5}, {\"year\": \"2024\", \"total\": 11}, {\"year\": \"2025\", \"total\": 7}]"</ns7:citationsOverTime>
+  </rdf:Description>
+</rdf:RDF>
