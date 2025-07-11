@@ -1,0 +1,288 @@
+{
+  "FAIR": {
+    "dcterms:identifier": "2ccb670d-6fe9-41c3-874e-3b5e183ba191",
+    "dc:title": "Wine",
+    "dc:description": "https://archive.ics.uci.edu/dataset/109",
+    "dc:creator": "Stefan Aeberhard, M. Forina",
+    "dc:license": "info not available",
+    "dcterms:hasVersion": "wine",
+    "dcterms:created": "2023-03-16 12:57:51",
+    "dcterms:modified": "2025-05-27 21:49:30",
+    "dcat:landingPage": "https://archive.ics.uci.edu/dataset/109",
+    "dc:publisher": "UCI Machine Learning Repository",
+    "dcterms:issued": "1992",
+    "dc:language": "unknown",
+    "dcat:citationCount": "18",
+    "dc:subject": "info not available",
+    "dcat:relatedResource": "\"[]\"",
+    "dcat:schemaVersion": "http://datacite.org/schema/kernel-4",
+    "dcat:registered": "2023-03-16 12:57:52",
+    "dcat:citationsOverTime": "\"[{\\\"year\\\": \\\"2023\\\", \\\"total\\\": 5}, {\\\"year\\\": \\\"2024\\\", \\\"total\\\": 7}, {\\\"year\\\": \\\"2025\\\", \\\"total\\\": 6}]\""
+  },
+  "FAIR4ML": {
+    "fair4ml:experimentID": "None_specified",
+    "fair4ml:runID": "b9cfb425742c4dcdb7fe07c5fe1fdac4",
+    "fair4ml:sessionID": "2b2eab22-767c-4c41-9012-3be6c73d6d1e",
+    "fair4ml:modelID": "model_wine_evaluation_v20250711_104632_20250711_104632",
+    "fair4ml:datasetID": "1faa7fe0-d043-4ed3-be83-ee323fd0d479",
+    "fair4ml:trainedOn": "Wine",
+    "fair4ml:modelType": "Classifier",
+    "dcterms:source": "10.24432/C5PC7J",
+    "fair4ml:trainingStartTime": "2025-07-11T10:46:32.062435",
+    "fair4ml:trainingEndTime": "2025-07-11T10:47:07.423511",
+    "fair4ml:targetVariable": "class",
+    "fair4ml:trainingScriptVersion": "2e8554a7ed9e4332229ae8ab89060d84ed99a088",
+    "fair4ml:runEnvironment": "Windows 10 | Python 3.11.5"
+  },
+  "MLSEA": {
+    "mlsea:accuracy": "0.972222222222222200",
+    "mlsea:f1_score": "0.975406236275801500",
+    "mlsea:num_deleted_rows": "0E-18",
+    "mlsea:num_inserted_rows": "0E-18",
+    "mlsea:precision": "0.980392156862745200",
+    "mlsea:recall": "0.972222222222222200",
+    "mlsea:roc_auc": "0.996643518518518500",
+    "mlsea:row_count_end": "178.000000000000000000",
+    "mlsea:row_count_start": "178.000000000000000000",
+    "mlsea:training_accuracy_score": "0.971830985915493000",
+    "mlsea:training_f1_score": "0.971799796447683900",
+    "mlsea:training_log_loss": "0.099904534511579780",
+    "mlsea:training_precision_score": "0.972737068211554500",
+    "mlsea:training_recall_score": "0.971830985915493000",
+    "mlsea:training_roc_auc": "0.995819375061435400",
+    "mlsea:training_score": "0.971830985915493000",
+    "justification_bootstrap": "false",
+    "justification_class_weight": "None_specified",
+    "justification_criterion": "None_specified",
+    "justification_dataset_version": "original dataset",
+    "justification_drop_column_x": "only index",
+    "justification_ethical_considerations": "No justification provided",
+    "justification_experiment_name": "following standard namming convention",
+    "justification_intended_use": "Wine classification",
+    "justification_max_depth": "To avoid overfitting",
+    "justification_max_features": "None_specified",
+    "justification_metric_choice": "classification problem evaluation",
+    "justification_min_samples_leaf":  "No justification provided",
+    "justification_min_samples_split":  "No justification provided",
+    "justification_model_choice": "For better performance",
+    "justification_model_limitations": "none",
+    "justification_not_intended_for": "No justification provided",
+    "justification_target_variable": "class for classification problem",
+    "justification_test_split": "following the standards",
+    "justification_threshold_accuracy": "there is none",
+    "mlsea:trainSplit": "0.797752808988764000",
+    "mlsea:testSplit": "0.202247191011235950",
+    "mlsea:featureSelection": "id,alcohol,malic_acid,ash,alcalinity_ash,magnesium,total_phenols,flavanoids,nonflavanoid_phenols,proanthocyanins,color_intensity,hue,od280_od315_diluted_wines,proline",
+    "mlsea:labelMap": "{\"0\": 0, \"1\": 1, \"2\": 2}",
+    "mlsea:imbalanceRatio": "1.000000000000000000"
+  },
+  "Croissant": {
+    "mls:modelID": "model_wine_evaluation_v20250711_104632_20250711_104632",
+    "mls:modelName": "Wine_Evaluation_v20250711_104632",
+    "mls:learningAlgorithm": "unknown_estimator",
+    "mls:modelArchitecture": "LogisticRegression",
+    "mls:featureList": "['alcohol', 'malic_acid', 'ash', 'alcalinity_ash', 'magnesium', 'total_phenols', 'flavanoids', 'nonflavanoid_phenols', 'proanthocyanins', 'color_intensity', 'hue', 'od280_od315_diluted_wines', 'proline']",
+    "mls:targetVariable": "class",
+    "mls:labelEncoding": "class",
+    "mls:modelPath": "Wine_Evaluation_v20250711_104632.pkl",
+    "mls:serializationFormat": "pickle",
+    "mls:modelVersion": "v-wine-test",
+    "mls:hyperparameters": "{\"n_estimators\": 100, \"criterion\": \"entropy\", \"max_depth\": 6, \"min_samples_split\": 2, \"min_samples_leaf\": 1, \"max_features\": \"sqrt\", \"bootstrap\": true, \"oob_score\": false, \"n_jobs\": -1, \"random_state\": 42, \"verbose\": 0}",
+    "mls:preprocessingSteps": "{\"dropped_columns\": [\"id\"], \"numeric_columns\": [\"alcohol\", \"malic_acid\", \"ash\", \"alcalinity_ash\", \"magnesium\", \"total_phenols\", \"flavanoids\", \"nonflavanoid_phenols\", \"proanthocyanins\", \"color_intensity\", \"hue\", \"od280_od315_diluted_wines\", \"proline\"], \"target_column\": \"class\", \"stratified\": false, \"coercion_strategy\": \"Numeric cast (auto)\", \"feature_engineering\": \"None\", \"missing_value_strategy\": \"None\", \"outlier_detection\": \"None\", \"encoding_strategy\": \"LabelEncoder (target only)\", \"scaling\": \"None\", \"sampling\": \"None\", \"feature_selection\": \"None\", \"train_test_split\": {\"test_size\": 0.2, \"random_state\": 45}, \"imbalance_ratio\": \"{0: 59, 1: 71, 2: 48}\", \"preprocessing_timestamp\": \"2025-07-11T10:49:17.123620\"}",
+    "mls:hasInput": "Wine",
+    "mls:hasOutput": "categorical"
+  },
+  "PROV-O": {
+    "prov:Entity": "2ccb670d-6fe9-41c3-874e-3b5e183ba191",
+    "prov:Activity": "b9cfb425742c4dcdb7fe07c5fe1fdac4",
+    "prov:Agent": "reema",
+    "prov:wasGeneratedBy": "b9cfb425742c4dcdb7fe07c5fe1fdac4",
+    "prov:wasAssociatedWith": "Thesis: Provenance Framework",
+    "prov:startedAtTime": "2025-07-11T10:46:32.062435",
+    "prov:endedAtTime": "2025-07-11T10:47:07.423511",
+    "prov:used": "C:\\Users\\reema\\AppData\\Roaming\\Python\\Python311\\site-packages\\ipykernel_launcher.py",
+    "prov:usedNotebook": "ThesisFramework.ipynb",
+    "prov:sessionID": "2b2eab22-767c-4c41-9012-3be6c73d6d1e",
+    "prov:location": "Purplish",
+    "prov:platform": "Windows",
+    "prov:pythonVersion": "3.11.5",
+    "prov:osPlatform": "Windows 10",
+    "prov:role": "collaborator",
+    "prov:scriptName": "None_specified",
+    "prov:commit": "2e8554a7ed9e4332229ae8ab89060d84ed99a088",
+    "prov:commitTime": "2025-07-11T08:42:55.590062",
+    "prov:commitAuthor": "Reema George",
+    "prov:commitEmail": "106236154+reema-dass26@users.noreply.github.com",
+    "prov:branch": "main",
+    "prov:repository": "https://archive.ics.uci.edu/dataset/109"
+  },
+  "Uncategorized": {
+    "run_name": "melodic-mare-838",
+    "origin_url": "None_specified",
+    "invenio_metadata": {
+      "id": "zg7w0-wx097",
+      "title": "RQ_notebooks",
+      "creator": "Dass, Reema",
+      "publication_date": "2025-04-24",
+      "files": [
+        {
+          "key": "Wine_Evaluation_v20250711_104632/confusion_matrix.png",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/confusion_matrix.png/content",
+          "size": 15885,
+          "mimetype": "image/png",
+          "checksum": "md5:e6ccb5140aaa899d69c3421931061de6",
+          "metadata": {
+            "width": 600,
+            "height": 600
+          }
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/logreg_coefficients.png",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/logreg_coefficients.png/content",
+          "size": 34796,
+          "mimetype": "image/png",
+          "checksum": "md5:24edcb516879fe6b90f2bd1ee5f82f74",
+          "metadata": {
+            "width": 800,
+            "height": 600
+          }
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/prov_JSONLD_export.jsonld",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/prov_JSONLD_export.jsonld/content",
+          "size": 24230,
+          "mimetype": "application/ld+json",
+          "checksum": "md5:8e54e7cc4b84eab2849f6d387536d396",
+          "metadata": {}
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/pr_curve_cls_0.png",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/pr_curve_cls_0.png/content",
+          "size": 20876,
+          "mimetype": "image/png",
+          "checksum": "md5:9cd4c97094bb0d046591a0fcc5b6dadc",
+          "metadata": {
+            "width": 640,
+            "height": 480
+          }
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/pr_curve_cls_2.png",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/pr_curve_cls_2.png/content",
+          "size": 19377,
+          "mimetype": "image/png",
+          "checksum": "md5:936d09d6528844548286eec6ec6dd685",
+          "metadata": {
+            "width": 640,
+            "height": 480
+          }
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/roc_curve_cls_0.png",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/roc_curve_cls_0.png/content",
+          "size": 20100,
+          "mimetype": "image/png",
+          "checksum": "md5:f6d5e559a27d81fb010b416bddc2fb02",
+          "metadata": {
+            "width": 640,
+            "height": 480
+          }
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/roc_curve_cls_2.png",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/roc_curve_cls_2.png/content",
+          "size": 20307,
+          "mimetype": "image/png",
+          "checksum": "md5:7c41787f86021de2a90341ddc8b87731",
+          "metadata": {
+            "width": 640,
+            "height": 480
+          }
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/Wine_Evaluation_v20250711_104632.pkl",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/Wine_Evaluation_v20250711_104632.pkl/content",
+          "size": 1324,
+          "mimetype": "application/octet-stream",
+          "checksum": "md5:434b873f654c207909222aa925fa1df2",
+          "metadata": {}
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/Wine_Evaluation_v20250711_104632_run_summary.json",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/Wine_Evaluation_v20250711_104632_run_summary.json/content",
+          "size": 11077,
+          "mimetype": "application/json",
+          "checksum": "md5:d646c8800421dde1623f37a01d7d8ae6",
+          "metadata": {}
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/prov_RDFXML_export.rdf",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/prov_RDFXML_export.rdf/content",
+          "size": 11665,
+          "mimetype": "application/rdf+xml",
+          "checksum": "md5:e4b79e908d74cabde06a6df50fadc2f7",
+          "metadata": {}
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/pr_curve_cls_1.png",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/pr_curve_cls_1.png/content",
+          "size": 20552,
+          "mimetype": "image/png",
+          "checksum": "md5:f6554338caed81981917fd47f2d934f1",
+          "metadata": {
+            "width": 640,
+            "height": 480
+          }
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/requirements.txt",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/requirements.txt/content",
+          "size": 1020,
+          "mimetype": "text/plain",
+          "checksum": "md5:0aedf900a3c11ae67b2ac38ca3345906",
+          "metadata": {}
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/roc_curve_cls_1.png",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/roc_curve_cls_1.png/content",
+          "size": 20580,
+          "mimetype": "image/png",
+          "checksum": "md5:71399177eba4f23ab5da63f087a1d541",
+          "metadata": {
+            "width": 640,
+            "height": 480
+          }
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/structured_metadata.json",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/structured_metadata.json/content",
+          "size": 7427,
+          "mimetype": "application/json",
+          "checksum": "md5:b50abbe0b288ade240a26fa76a27eb7a",
+          "metadata": {}
+        },
+        {
+          "key": "Wine_Evaluation_v20250711_104632/Wine_Evaluation_v20250711_104632_reproducibility.txt",
+          "url": "https://127.0.0.1:5000/api/records/zg7w0-wx097/files/Wine_Evaluation_v20250711_104632/Wine_Evaluation_v20250711_104632_reproducibility.txt/content",
+          "size": 3535,
+          "mimetype": "text/plain",
+          "checksum": "md5:ce4fd36a132d88140f48b13269d0334c",
+          "metadata": {}
+        }
+      ],
+      "pids": {
+        "oai": {
+          "identifier": "oai:my-site.com:zg7w0-wx097",
+          "provider": "oai"
+        }
+      },
+      "version_info": {
+        "is_latest": true,
+        "index": 1
+      },
+      "status": "published",
+      "views": 0,
+      "downloads": 0
+    }
+  }
+}

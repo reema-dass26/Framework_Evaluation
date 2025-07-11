@@ -1,0 +1,597 @@
+[
+  {
+    "@id": "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/run_b9cfb425742c4dcdb7fe07c5fe1fdac4",
+    "@type": [
+      "http://www.w3.org/ns/prov#Activity"
+    ],
+    "http://www.w3.org/ns/prov#endedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-07-11T10:47:07"
+      }
+    ],
+    "http://www.w3.org/ns/prov#startedAtTime": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2025-07-11T10:46:32"
+      }
+    ],
+    "http://www.w3.org/ns/prov#used": [
+      {
+        "@id": "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dataset_2ccb670d-6fe9-41c3-874e-3b5e183ba191"
+      },
+      {
+        "@id": "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/code_2e8554a7ed9e4332229ae8ab89060d84ed99a088"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasAssociatedWith": [
+      {
+        "@id": "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/agent_reema"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcterms:source": [
+      {
+        "@value": "10.24432/C5PC7J"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:datasetID": [
+      {
+        "@value": "1faa7fe0-d043-4ed3-be83-ee323fd0d479"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:modelID": [
+      {
+        "@value": "model_wine_evaluation_v20250711_104632_20250711_104632"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:modelType": [
+      {
+        "@value": "Classifier"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:runEnvironment": [
+      {
+        "@value": "Windows 10 | Python 3.11.5"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:runID": [
+      {
+        "@value": "b9cfb425742c4dcdb7fe07c5fe1fdac4"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:sessionID": [
+      {
+        "@value": "2b2eab22-767c-4c41-9012-3be6c73d6d1e"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:targetVariable": [
+      {
+        "@value": "class"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:trainedOn": [
+      {
+        "@value": "Wine"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:trainingEndTime": [
+      {
+        "@value": "2025-07-11T10:47:07.423511"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:trainingScriptVersion": [
+      {
+        "@value": "2e8554a7ed9e4332229ae8ab89060d84ed99a088"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:trainingStartTime": [
+      {
+        "@value": "2025-07-11T10:46:32.062435"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_bootstrap": [
+      {
+        "@value": "false"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_dataset_version": [
+      {
+        "@value": "original dataset"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_drop_column_x": [
+      {
+        "@value": "only index"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_ethical_considerations": [
+      {
+        "@value": "No justification provided"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_experiment_name": [
+      {
+        "@value": "following standard namming convention"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_intended_use": [
+      {
+        "@value": "Wine classification"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_max_depth": [
+      {
+        "@value": "-1"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_metric_choice": [
+      {
+        "@value": "classification problem evaluation"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_min_samples_leaf": [
+      {
+        "@value": "-1"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_min_samples_split": [
+      {
+        "@value": "-1"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_model_choice": [
+      {
+        "@value": "For better performance"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_model_limitations": [
+      {
+        "@value": "none"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_n_estimators": [
+      {
+        "@value": "-1"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_n_jobs": [
+      {
+        "@value": "-1"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_not_intended_for": [
+      {
+        "@value": "No justification provided"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_oob_score": [
+      {
+        "@value": "false"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_target_variable": [
+      {
+        "@value": "class for classification problem"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_test_split": [
+      {
+        "@value": "following the standards"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_threshold_accuracy": [
+      {
+        "@value": "there is none"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/justification_verbose": [
+      {
+        "@value": "false"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:accuracy": [
+      {
+        "@value": "0.972222222222222200"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:f1_score": [
+      {
+        "@value": "0.975406236275801500"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:featureSelection": [
+      {
+        "@value": "id,alcohol,malic_acid,ash,alcalinity_ash,magnesium,total_phenols,flavanoids,nonflavanoid_phenols,proanthocyanins,color_intensity,hue,od280_od315_diluted_wines,proline"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:imbalanceRatio": [
+      {
+        "@value": "1.000000000000000000"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:labelMap": [
+      {
+        "@value": "{\"0\": 0, \"1\": 1, \"2\": 2}"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:num_deleted_rows": [
+      {
+        "@value": "0E-18"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:num_inserted_rows": [
+      {
+        "@value": "0E-18"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:precision": [
+      {
+        "@value": "0.980392156862745200"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:recall": [
+      {
+        "@value": "0.972222222222222200"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:roc_auc": [
+      {
+        "@value": "0.996643518518518500"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:row_count_end": [
+      {
+        "@value": "178.000000000000000000"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:row_count_start": [
+      {
+        "@value": "178.000000000000000000"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:testSplit": [
+      {
+        "@value": "0.202247191011235950"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:trainSplit": [
+      {
+        "@value": "0.797752808988764000"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:training_accuracy_score": [
+      {
+        "@value": "0.971830985915493000"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:training_f1_score": [
+      {
+        "@value": "0.971799796447683900"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:training_log_loss": [
+      {
+        "@value": "0.099904534511579780"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:training_precision_score": [
+      {
+        "@value": "0.972737068211554500"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:training_recall_score": [
+      {
+        "@value": "0.971830985915493000"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:training_roc_auc": [
+      {
+        "@value": "0.995819375061435400"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:training_score": [
+      {
+        "@value": "0.971830985915493000"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dataset_2ccb670d-6fe9-41c3-874e-3b5e183ba191",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dc:creator": [
+      {
+        "@value": "Stefan Aeberhard, M. Forina"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dc:description": [
+      {
+        "@value": "https://archive.ics.uci.edu/dataset/109"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dc:language": [
+      {
+        "@value": "unknown"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dc:license": [
+      {
+        "@value": "info not available"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dc:publisher": [
+      {
+        "@value": "UCI Machine Learning Repository"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dc:subject": [
+      {
+        "@value": "info not available"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dc:title": [
+      {
+        "@value": "Wine"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcat:citationCount": [
+      {
+        "@value": "18"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcat:citationsOverTime": [
+      {
+        "@value": "\"[{\\\"year\\\": \\\"2023\\\", \\\"total\\\": 5}, {\\\"year\\\": \\\"2024\\\", \\\"total\\\": 7}, {\\\"year\\\": \\\"2025\\\", \\\"total\\\": 6}]\""
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcat:landingPage": [
+      {
+        "@value": "https://archive.ics.uci.edu/dataset/109"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcat:registered": [
+      {
+        "@value": "2023-03-16 12:57:52"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcat:relatedResource": [
+      {
+        "@value": "\"[]\""
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcat:schemaVersion": [
+      {
+        "@value": "http://datacite.org/schema/kernel-4"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcterms:created": [
+      {
+        "@value": "2023-03-16 12:57:51"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcterms:hasVersion": [
+      {
+        "@value": "wine"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcterms:identifier": [
+      {
+        "@value": "2ccb670d-6fe9-41c3-874e-3b5e183ba191"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcterms:issued": [
+      {
+        "@value": "1992"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcterms:modified": [
+      {
+        "@value": "2025-05-27 21:49:30"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/agent_reema",
+    "@type": [
+      "http://www.w3.org/ns/prov#Agent"
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "reema"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/code_2e8554a7ed9e4332229ae8ab89060d84ed99a088",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:Activity": [
+      {
+        "@value": "b9cfb425742c4dcdb7fe07c5fe1fdac4"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:Agent": [
+      {
+        "@value": "reema"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:Entity": [
+      {
+        "@value": "2ccb670d-6fe9-41c3-874e-3b5e183ba191"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:branch": [
+      {
+        "@value": "main"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:commit": [
+      {
+        "@value": "2e8554a7ed9e4332229ae8ab89060d84ed99a088"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:commitAuthor": [
+      {
+        "@value": "Reema George"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:commitEmail": [
+      {
+        "@value": "106236154+reema-dass26@users.noreply.github.com"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:commitTime": [
+      {
+        "@value": "2025-07-11T08:42:55.590062"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:endedAtTime": [
+      {
+        "@value": "2025-07-11T10:47:07.423511"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:location": [
+      {
+        "@value": "Purplish"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:osPlatform": [
+      {
+        "@value": "Windows 10"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:platform": [
+      {
+        "@value": "Windows"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:pythonVersion": [
+      {
+        "@value": "3.11.5"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:repository": [
+      {
+        "@value": "https://archive.ics.uci.edu/dataset/109"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:role": [
+      {
+        "@value": "collaborator"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:sessionID": [
+      {
+        "@value": "2b2eab22-767c-4c41-9012-3be6c73d6d1e"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:startedAtTime": [
+      {
+        "@value": "2025-07-11T10:46:32.062435"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:used": [
+      {
+        "@value": "C:\\Users\\reema\\AppData\\Roaming\\Python\\Python311\\site-packages\\ipykernel_launcher.py"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:usedNotebook": [
+      {
+        "@value": "ThesisFramework.ipynb"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:wasAssociatedWith": [
+      {
+        "@value": "Thesis: Provenance Framework"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:wasGeneratedBy": [
+      {
+        "@value": "b9cfb425742c4dcdb7fe07c5fe1fdac4"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/model_model_wine_evaluation_v20250711_104632_20250711_104632",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity"
+    ],
+    "http://www.w3.org/ns/prov#wasGeneratedBy": [
+      {
+        "@id": "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/run_b9cfb425742c4dcdb7fe07c5fe1fdac4"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:featureList": [
+      {
+        "@value": "['alcohol', 'malic_acid', 'ash', 'alcalinity_ash', 'magnesium', 'total_phenols', 'flavanoids', 'nonflavanoid_phenols', 'proanthocyanins', 'color_intensity', 'hue', 'od280_od315_diluted_wines', 'proline']"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:hasInput": [
+      {
+        "@value": "Wine"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:hasOutput": [
+      {
+        "@value": "categorical"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:hyperparameters": [
+      {
+        "@value": "{\"n_estimators\": 100, \"criterion\": \"entropy\", \"max_depth\": 6, \"min_samples_split\": 2, \"min_samples_leaf\": 1, \"max_features\": \"sqrt\", \"bootstrap\": true, \"oob_score\": false, \"n_jobs\": -1, \"random_state\": 42, \"verbose\": 0}"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:labelEncoding": [
+      {
+        "@value": "class"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:learningAlgorithm": [
+      {
+        "@value": "unknown_estimator"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:modelArchitecture": [
+      {
+        "@value": "LogisticRegression"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:modelID": [
+      {
+        "@value": "model_wine_evaluation_v20250711_104632_20250711_104632"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:modelName": [
+      {
+        "@value": "Wine_Evaluation_v20250711_104632"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:modelPath": [
+      {
+        "@value": "Wine_Evaluation_v20250711_104632.pkl"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:modelVersion": [
+      {
+        "@value": "v-wine-test"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:preprocessingSteps": [
+      {
+        "@value": "{\"dropped_columns\": [\"id\"], \"numeric_columns\": [\"alcohol\", \"malic_acid\", \"ash\", \"alcalinity_ash\", \"magnesium\", \"total_phenols\", \"flavanoids\", \"nonflavanoid_phenols\", \"proanthocyanins\", \"color_intensity\", \"hue\", \"od280_od315_diluted_wines\", \"proline\"], \"target_column\": \"class\", \"stratified\": false, \"coercion_strategy\": \"Numeric cast (auto)\", \"feature_engineering\": \"None\", \"missing_value_strategy\": \"None\", \"outlier_detection\": \"None\", \"encoding_strategy\": \"LabelEncoder (target only)\", \"scaling\": \"None\", \"sampling\": \"None\", \"feature_selection\": \"None\", \"train_test_split\": {\"test_size\": 0.2, \"random_state\": 45}, \"imbalance_ratio\": \"{0: 59, 1: 71, 2: 48}\", \"preprocessing_timestamp\": \"2025-07-11T10:49:17.123620\"}"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:serializationFormat": [
+      {
+        "@value": "pickle"
+      }
+    ],
+    "https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:targetVariable": [
+      {
+        "@value": "class"
+      }
+    ]
+  }
+]

@@ -1673,7 +1673,7 @@ elif selected == "📤 Export Provenance":
     st.title("📤 Export Provenance")
 
     # 1. Discover available provenance folders
-    provenance_folders = glob.glob(os.path.join("MODEL_PROVENANCE", "RandomForest_Iris_v*"))
+    provenance_folders = glob.glob(os.path.join("MODEL_PROVENANCE", "*_v*"))
     provenance_folders = [os.path.basename(folder) for folder in provenance_folders]
 
     if not provenance_folders:

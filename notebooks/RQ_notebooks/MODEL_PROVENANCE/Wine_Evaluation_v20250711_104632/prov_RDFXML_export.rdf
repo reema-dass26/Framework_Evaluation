@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ns1="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/prov:"
+   xmlns:ns2="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mlsea:"
+   xmlns:ns3="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/mls:"
+   xmlns:ns4="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/fair4ml:"
+   xmlns:ns5="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dc:"
+   xmlns:ns6="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcat:"
+   xmlns:ns7="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dcterms:"
+   xmlns:prov="http://www.w3.org/ns/prov#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/run_b9cfb425742c4dcdb7fe07c5fe1fdac4">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-11T10:46:32</prov:startedAtTime>
+    <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-11T10:47:07</prov:endedAtTime>
+    <prov:used rdf:resource="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dataset_2ccb670d-6fe9-41c3-874e-3b5e183ba191"/>
+    <prov:used rdf:resource="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/code_2e8554a7ed9e4332229ae8ab89060d84ed99a088"/>
+    <prov:wasAssociatedWith rdf:resource="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/agent_reema"/>
+    <ns4:runID>b9cfb425742c4dcdb7fe07c5fe1fdac4</ns4:runID>
+    <ns4:sessionID>2b2eab22-767c-4c41-9012-3be6c73d6d1e</ns4:sessionID>
+    <ns4:modelID>model_wine_evaluation_v20250711_104632_20250711_104632</ns4:modelID>
+    <ns4:datasetID>1faa7fe0-d043-4ed3-be83-ee323fd0d479</ns4:datasetID>
+    <ns4:trainedOn>Wine</ns4:trainedOn>
+    <ns4:modelType>Classifier</ns4:modelType>
+    <ns7:source>10.24432/C5PC7J</ns7:source>
+    <ns4:trainingStartTime>2025-07-11T10:46:32.062435</ns4:trainingStartTime>
+    <ns4:trainingEndTime>2025-07-11T10:47:07.423511</ns4:trainingEndTime>
+    <ns4:targetVariable>class</ns4:targetVariable>
+    <ns4:trainingScriptVersion>2e8554a7ed9e4332229ae8ab89060d84ed99a088</ns4:trainingScriptVersion>
+    <ns4:runEnvironment>Windows 10 | Python 3.11.5</ns4:runEnvironment>
+    <ns2:accuracy>0.972222222222222200</ns2:accuracy>
+    <ns2:f1_score>0.975406236275801500</ns2:f1_score>
+    <ns2:num_deleted_rows>0E-18</ns2:num_deleted_rows>
+    <ns2:num_inserted_rows>0E-18</ns2:num_inserted_rows>
+    <ns2:precision>0.980392156862745200</ns2:precision>
+    <ns2:recall>0.972222222222222200</ns2:recall>
+    <ns2:roc_auc>0.996643518518518500</ns2:roc_auc>
+    <ns2:row_count_end>178.000000000000000000</ns2:row_count_end>
+    <ns2:row_count_start>178.000000000000000000</ns2:row_count_start>
+    <ns2:training_accuracy_score>0.971830985915493000</ns2:training_accuracy_score>
+    <ns2:training_f1_score>0.971799796447683900</ns2:training_f1_score>
+    <ns2:training_log_loss>0.099904534511579780</ns2:training_log_loss>
+    <ns2:training_precision_score>0.972737068211554500</ns2:training_precision_score>
+    <ns2:training_recall_score>0.971830985915493000</ns2:training_recall_score>
+    <ns2:training_roc_auc>0.995819375061435400</ns2:training_roc_auc>
+    <ns2:training_score>0.971830985915493000</ns2:training_score>
+    <ex:justification_bootstrap>false</ex:justification_bootstrap>
+    <ex:justification_dataset_version>original dataset</ex:justification_dataset_version>
+    <ex:justification_drop_column_x>only index</ex:justification_drop_column_x>
+    <ex:justification_ethical_considerations>No justification provided</ex:justification_ethical_considerations>
+    <ex:justification_experiment_name>following standard namming convention</ex:justification_experiment_name>
+    <ex:justification_intended_use>Wine classification</ex:justification_intended_use>
+    <ex:justification_max_depth>-1</ex:justification_max_depth>
+    <ex:justification_metric_choice>classification problem evaluation</ex:justification_metric_choice>
+    <ex:justification_min_samples_leaf>-1</ex:justification_min_samples_leaf>
+    <ex:justification_min_samples_split>-1</ex:justification_min_samples_split>
+    <ex:justification_model_choice>For better performance</ex:justification_model_choice>
+    <ex:justification_model_limitations>none</ex:justification_model_limitations>
+    <ex:justification_not_intended_for>No justification provided</ex:justification_not_intended_for>
+    <ex:justification_n_estimators>-1</ex:justification_n_estimators>
+    <ex:justification_n_jobs>-1</ex:justification_n_jobs>
+    <ex:justification_oob_score>false</ex:justification_oob_score>
+    <ex:justification_target_variable>class for classification problem</ex:justification_target_variable>
+    <ex:justification_test_split>following the standards</ex:justification_test_split>
+    <ex:justification_threshold_accuracy>there is none</ex:justification_threshold_accuracy>
+    <ex:justification_verbose>false</ex:justification_verbose>
+    <ns2:trainSplit>0.797752808988764000</ns2:trainSplit>
+    <ns2:testSplit>0.202247191011235950</ns2:testSplit>
+    <ns2:featureSelection>id,alcohol,malic_acid,ash,alcalinity_ash,magnesium,total_phenols,flavanoids,nonflavanoid_phenols,proanthocyanins,color_intensity,hue,od280_od315_diluted_wines,proline</ns2:featureSelection>
+    <ns2:labelMap>{"0": 0, "1": 1, "2": 2}</ns2:labelMap>
+    <ns2:imbalanceRatio>1.000000000000000000</ns2:imbalanceRatio>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/code_2e8554a7ed9e4332229ae8ab89060d84ed99a088">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns1:Entity>2ccb670d-6fe9-41c3-874e-3b5e183ba191</ns1:Entity>
+    <ns1:Activity>b9cfb425742c4dcdb7fe07c5fe1fdac4</ns1:Activity>
+    <ns1:Agent>reema</ns1:Agent>
+    <ns1:wasGeneratedBy>b9cfb425742c4dcdb7fe07c5fe1fdac4</ns1:wasGeneratedBy>
+    <ns1:wasAssociatedWith>Thesis: Provenance Framework</ns1:wasAssociatedWith>
+    <ns1:startedAtTime>2025-07-11T10:46:32.062435</ns1:startedAtTime>
+    <ns1:endedAtTime>2025-07-11T10:47:07.423511</ns1:endedAtTime>
+    <ns1:used>C:\Users\reema\AppData\Roaming\Python\Python311\site-packages\ipykernel_launcher.py</ns1:used>
+    <ns1:usedNotebook>ThesisFramework.ipynb</ns1:usedNotebook>
+    <ns1:sessionID>2b2eab22-767c-4c41-9012-3be6c73d6d1e</ns1:sessionID>
+    <ns1:location>Purplish</ns1:location>
+    <ns1:platform>Windows</ns1:platform>
+    <ns1:pythonVersion>3.11.5</ns1:pythonVersion>
+    <ns1:osPlatform>Windows 10</ns1:osPlatform>
+    <ns1:role>collaborator</ns1:role>
+    <ns1:commit>2e8554a7ed9e4332229ae8ab89060d84ed99a088</ns1:commit>
+    <ns1:commitTime>2025-07-11T08:42:55.590062</ns1:commitTime>
+    <ns1:commitAuthor>Reema George</ns1:commitAuthor>
+    <ns1:commitEmail>106236154+reema-dass26@users.noreply.github.com</ns1:commitEmail>
+    <ns1:branch>main</ns1:branch>
+    <ns1:repository>https://archive.ics.uci.edu/dataset/109</ns1:repository>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/model_model_wine_evaluation_v20250711_104632_20250711_104632">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <prov:wasGeneratedBy rdf:resource="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/run_b9cfb425742c4dcdb7fe07c5fe1fdac4"/>
+    <ns3:modelID>model_wine_evaluation_v20250711_104632_20250711_104632</ns3:modelID>
+    <ns3:modelName>Wine_Evaluation_v20250711_104632</ns3:modelName>
+    <ns3:learningAlgorithm>unknown_estimator</ns3:learningAlgorithm>
+    <ns3:modelArchitecture>LogisticRegression</ns3:modelArchitecture>
+    <ns3:featureList>['alcohol', 'malic_acid', 'ash', 'alcalinity_ash', 'magnesium', 'total_phenols', 'flavanoids', 'nonflavanoid_phenols', 'proanthocyanins', 'color_intensity', 'hue', 'od280_od315_diluted_wines', 'proline']</ns3:featureList>
+    <ns3:targetVariable>class</ns3:targetVariable>
+    <ns3:labelEncoding>class</ns3:labelEncoding>
+    <ns3:modelPath>Wine_Evaluation_v20250711_104632.pkl</ns3:modelPath>
+    <ns3:serializationFormat>pickle</ns3:serializationFormat>
+    <ns3:modelVersion>v-wine-test</ns3:modelVersion>
+    <ns3:hyperparameters>{"n_estimators": 100, "criterion": "entropy", "max_depth": 6, "min_samples_split": 2, "min_samples_leaf": 1, "max_features": "sqrt", "bootstrap": true, "oob_score": false, "n_jobs": -1, "random_state": 42, "verbose": 0}</ns3:hyperparameters>
+    <ns3:preprocessingSteps>{"dropped_columns": ["id"], "numeric_columns": ["alcohol", "malic_acid", "ash", "alcalinity_ash", "magnesium", "total_phenols", "flavanoids", "nonflavanoid_phenols", "proanthocyanins", "color_intensity", "hue", "od280_od315_diluted_wines", "proline"], "target_column": "class", "stratified": false, "coercion_strategy": "Numeric cast (auto)", "feature_engineering": "None", "missing_value_strategy": "None", "outlier_detection": "None", "encoding_strategy": "LabelEncoder (target only)", "scaling": "None", "sampling": "None", "feature_selection": "None", "train_test_split": {"test_size": 0.2, "random_state": 45}, "imbalance_ratio": "{0: 59, 1: 71, 2: 48}", "preprocessing_timestamp": "2025-07-11T10:49:17.123620"}</ns3:preprocessingSteps>
+    <ns3:hasInput>Wine</ns3:hasInput>
+    <ns3:hasOutput>categorical</ns3:hasOutput>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/dataset_2ccb670d-6fe9-41c3-874e-3b5e183ba191">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    <ns7:identifier>2ccb670d-6fe9-41c3-874e-3b5e183ba191</ns7:identifier>
+    <ns5:title>Wine</ns5:title>
+    <ns5:description>https://archive.ics.uci.edu/dataset/109</ns5:description>
+    <ns5:creator>Stefan Aeberhard, M. Forina</ns5:creator>
+    <ns5:license>info not available</ns5:license>
+    <ns7:hasVersion>wine</ns7:hasVersion>
+    <ns7:created>2023-03-16 12:57:51</ns7:created>
+    <ns7:modified>2025-05-27 21:49:30</ns7:modified>
+    <ns6:landingPage>https://archive.ics.uci.edu/dataset/109</ns6:landingPage>
+    <ns5:publisher>UCI Machine Learning Repository</ns5:publisher>
+    <ns7:issued>1992</ns7:issued>
+    <ns5:language>unknown</ns5:language>
+    <ns6:citationCount>18</ns6:citationCount>
+    <ns5:subject>info not available</ns5:subject>
+    <ns6:relatedResource>"[]"</ns6:relatedResource>
+    <ns6:schemaVersion>http://datacite.org/schema/kernel-4</ns6:schemaVersion>
+    <ns6:registered>2023-03-16 12:57:52</ns6:registered>
+    <ns6:citationsOverTime>"[{\"year\": \"2023\", \"total\": 5}, {\"year\": \"2024\", \"total\": 7}, {\"year\": \"2025\", \"total\": 6}]"</ns6:citationsOverTime>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://github.com/reema-dass26/ml-provenance/provenance/run_b9cfb425742c4dcdb7fe07c5fe1fdac4/agent_reema">
+    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    <foaf:name>reema</foaf:name>
+  </rdf:Description>
+</rdf:RDF>
